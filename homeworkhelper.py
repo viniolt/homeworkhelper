@@ -16,7 +16,7 @@ response = openai.ChatCompletion.create(
     messages=[
         {"role": "system", "content": "You are a helpful assistant that responds in Markdown. Help me with my homework!"}, #GPT's role
         {"role": "user", "content": [
-            {"type": "text", "text": "Insert here your prompt. Exemple: Find the area of the triangle"},
+            {"type": "text", "text": "Insert your prompt here. Example: Find the area of the triangle"},
             {"type": "image_url", "image_url": {
                 "url": f"data:image/png;base64,{base64_image}"}
              }
